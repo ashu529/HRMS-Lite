@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-const API = "http://localhost:5000/api";
+const API = "https://hrms-lite-qfga.onrender.com/api";
 
 export default function App() {
   const [employees, setEmployees] = useState([]);
